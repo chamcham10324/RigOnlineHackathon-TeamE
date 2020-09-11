@@ -8,9 +8,11 @@ using UnityEngine.EventSystems;
 public class FadeScript : MonoBehaviour
 {
     public GameObject button;
+    public Text text;
     float alfa;    //A値を操作するための変数
     float red, green, blue;    //RGBを操作するための変数
     Image im;
+
 
     void Start () {
     }
@@ -28,11 +30,12 @@ public class FadeScript : MonoBehaviour
 
 void FadeinFrame(float value)
     {
+        text.color = new Color(0, 0, 0, value+0.2f);
         im.color = new Color(0, 0, 0, value);
     }
 
     public void LS(){
-        SceneManager.LoadScene("PlayerTestScene");
+        SceneManager.LoadScene("StageSelectScene");
     }
 
 }
