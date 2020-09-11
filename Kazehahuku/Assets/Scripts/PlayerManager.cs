@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    [SerializeField] ResultManager resultManager;
     private Vector3 moveDirection;
     private float x;
     private float y;
     private Animator playerAnimator;
+    private Rigidbody2D rb;
 
     // Start is called before the first frame update
     void Start()
     {
         playerAnimator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -57,8 +60,24 @@ public class PlayerManager : MonoBehaviour
         }
         moveDirection.x = x;
         moveDirection.y = y;
+        rb.velocity = Vector3.zero;
 
         transform.position += moveDirection * Time.deltaTime;
         transform.rotation = Quaternion.identity;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // ゴールしたら
+        if(collision.gameObject.tag == "Goal")
+        {
+            resultManager.ResultStart();
+        }
+
+        // 何かにぶつかったら
+        if(collision.gameObject.tag == "Object")
+        {
+            Debug.Log("Hit!");
+        }
     }
 }
