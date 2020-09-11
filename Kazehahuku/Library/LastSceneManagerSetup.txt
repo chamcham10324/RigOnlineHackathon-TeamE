@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/PlayerTestScene.unity
+=======
+- path: Assets/Scenes/RockandHoleTestScene.unity
+>>>>>>> 341ca7165d16483607d1b01335f4827db7444e6d
   isLoaded: 1
   isActive: 1
   isSubScene: 0
