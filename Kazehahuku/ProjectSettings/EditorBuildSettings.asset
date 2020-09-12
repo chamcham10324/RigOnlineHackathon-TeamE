@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TitleScene.unity
     guid: c16b92dac11838b4392b3df6eefda96f
   - enabled: 1
+    path: Assets/Scenes/MotherScene.unity
+    guid: b70f41fbdb7fbc34eaa7660f1a868d01
+  - enabled: 1
     path: Assets/Scenes/StageSelectScene.unity
     guid: 6d4557cc57d83fa4899c61994c5a1356
   - enabled: 1

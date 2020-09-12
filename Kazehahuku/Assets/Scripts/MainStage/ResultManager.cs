@@ -49,17 +49,17 @@ public class ResultManager : MonoBehaviour
         iTween.ValueTo(gameObject, iTween.Hash("from", 0, "to", 1, "time", 0.5f, "delay", 5, "onupdate", "Evaluation"));
         iTween.ValueTo(gameObject, iTween.Hash("from", 0, "to", 1, "time", 0.5f, "delay", 7, "onupdate", "StageSelect"));
 
-        if(score < 80)
+        if(score < 100)
         {
             iTween.ValueTo(gameObject, iTween.Hash("from", 0, "to", 360, "time", 0.5f, "delay", 5.5, "onupdate", "RotateStar1"));
             iTween.ValueTo(gameObject, iTween.Hash("from", 0.3, "to", 0.15, "time", 0.5f, "delay", 5.5, "onupdate", "MoveStar1"));
         }
-        if(score < 60)
+        if(score < 80)
         {
             iTween.ValueTo(gameObject, iTween.Hash("from", 0, "to", 360, "time", 0.5f, "delay", 6, "onupdate", "RotateStar2"));
             iTween.ValueTo(gameObject, iTween.Hash("from", 0.3, "to", 0.15, "time", 0.5f, "delay", 6, "onupdate", "MoveStar2"));
         }
-        if(score < 40)
+        if(score < 70)
         {
             iTween.ValueTo(gameObject, iTween.Hash("from", 0, "to", 360, "time", 0.5f, "delay", 6.5, "onupdate", "RotateStar3"));
             iTween.ValueTo(gameObject, iTween.Hash("from", 0.3, "to", 0.15, "time", 0.5f, "delay", 6.5, "onupdate", "MoveStar3"));
