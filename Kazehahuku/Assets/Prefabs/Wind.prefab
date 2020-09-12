@@ -88,6 +88,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 1819610064208787119}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 992fda027080a914395172cdae6a6611, type: 3}
+  m_Script: {fileID: 11500000, guid: 580bbf5f23a20b24a88cfd07ea59b95f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  windEffect1: {fileID: 1819610064208787119}
+  windEffect2: {fileID: 1819610064208787119}
