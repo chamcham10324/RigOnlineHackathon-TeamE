@@ -650,7 +650,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200, y: 165.66}
+  m_AnchoredPosition: {x: -206, y: 112.659996}
   m_SizeDelta: {x: 317.62537, y: 52.161148}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &988026848
@@ -1132,7 +1132,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -200, y: 23}
+  m_AnchoredPosition: {x: -206, y: -30}
   m_SizeDelta: {x: 317.6258, y: 178.374}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1600715054
@@ -1150,9 +1150,9 @@ MonoBehaviour:
   Flag: 0
   Stage1: {fileID: 21300000, guid: db46736292fbf8e448272031c3db61ea, type: 3}
   Stage2: {fileID: 21300000, guid: 1ad1dcc9d1906d5498d1f78c2ecd3aca, type: 3}
-  Stage3: {fileID: 21300000, guid: d4017366971b52940bc56a70225c52b7, type: 3}
-  Stage4: {fileID: 21300000, guid: fe44d1e3f8f5333489041440b3cc6ffc, type: 3}
-  Stage5: {fileID: 21300000, guid: 226c24146655286498d2e89fee514bff, type: 3}
+  Stage3: {fileID: 21300000, guid: 49126959b9ff9364ea633297c960e24c, type: 3}
+  Stage4: {fileID: 21300000, guid: 4adfeee0f5b5794489fbbfc3f17446ea, type: 3}
+  Stage5: {fileID: 21300000, guid: 35e6115ceaabc0a44892190f44fb5975, type: 3}
 --- !u!114 &1600715055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
