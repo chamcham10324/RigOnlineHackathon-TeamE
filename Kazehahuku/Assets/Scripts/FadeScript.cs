@@ -27,6 +27,10 @@ public class FadeScript : MonoBehaviour
 
     }
 
+        public void NextScene () {    
+            SceneManager.LoadScene("StageSelectScene");
+    }
+
 
 void FadeinFrame(float value)
     {
@@ -35,7 +39,7 @@ void FadeinFrame(float value)
     }
 
     public void LS(){
-        SceneManager.LoadScene("StageSelectScene");
+        SceneManager.LoadScene("MotherScene");
     }
 
 }
